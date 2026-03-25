@@ -1,0 +1,14 @@
+import './globals.css';
+
+export const metadata = {
+  title: 'Peter Brown - The Mortgage Advisor',
+  description: 'Trusted mortgage guidance for every stage of your journey.'
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
